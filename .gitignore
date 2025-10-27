@@ -1,0 +1,30 @@
+# WordPress core files and directories
+/wp-admin/
+/wp-includes/
+/wp-content/upgrade/
+/wp-content/uploads/
+/wp-content/backup-db/
+/wp-content/cache/
+/wp-content/backups/
+
+# WordPress config files
+wp-config.php
+wp-config-sample.php
+
+# WordPress system files
+/.htaccess
+/license.txt
+/readme.html
+/index.php
+xmlrpc.php
+
+# WordPress default themes
+/wp-content/themes/twenty*/
+
+# WordPress debug logs
+/debug.log
+*.log
+
+# WordPress cache and temp files
+*.tmp
+*.cache
