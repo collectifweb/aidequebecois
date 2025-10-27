@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/aidequeb/public_html/
+    - /bin/cp -r wp-content/themes/* $DEPLOYPATH/wp-content/themes/
+    - /bin/cp -r wp-content/plugins/* $DEPLOYPATH/wp-content/plugins/
