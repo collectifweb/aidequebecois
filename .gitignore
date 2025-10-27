@@ -24,6 +24,22 @@ wp-config-sample.php
 /readme.html
 /index.php
 xmlrpc.php
+AQ.code-workspace
+local-phpinfo.php
+local-xdebuginfo.php
+php.ini
+user.ini
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
 
 # WordPress default themes
 /wp-content/themes/twenty*/
