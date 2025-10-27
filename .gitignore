@@ -1,11 +1,18 @@
 # WordPress core files and directories
 /wp-admin/
 /wp-includes/
-/wp-content/upgrade/
-/wp-content/uploads/
-/wp-content/backup-db/
-/wp-content/cache/
-/wp-content/backups/
+
+# Exclure TOUT le dossier wp-content
+/wp-content/*
+
+# Sauf le dossier 'themes' (et son contenu) :
+!/wp-content/themes/
+
+# Sauf le dossier 'plugins' (et son contenu) :
+!/wp-content/plugins/
+
+# Maintenant, ré-exclure les thèmes par défaut que vous ne voulez pas versionner
+/wp-content/themes/twenty*/
 
 # WordPress config files
 wp-config.php
